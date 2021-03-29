@@ -1,0 +1,40 @@
+.aboutUs{
+  height: 100vh;
+  /*padding: 100px 90px 100px 90px;*/
+}
+.left{
+  width: 50%;
+  padding: 0% 4% 0 4%;
+}
+.photo{
+  height: 40%;
+}
+.grid{
+  height: 80%;
+  width: 80%;
+}
+
+.right{
+  position: relative;
+  width: 50%;
+}
+
+.wrapper{
+  display: flex;
+}
+h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+p{
+  font-size: 17px;
+  color: grey;
+}
+.photo{
+  position: absolute;
+  top: -3%;
+  left: 9%;
+  height: 90%;
+  width: 50%;
+}

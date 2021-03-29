@@ -1,0 +1,11 @@
+#editForm{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.send-request{
+  height: 100vh;
+}

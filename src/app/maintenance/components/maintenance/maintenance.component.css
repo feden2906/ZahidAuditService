@@ -1,0 +1,42 @@
+.example-card {
+  max-width: 400px;
+  -webkit-box-shadow: 29px -10px 13px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 29px -10px 13px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 29px -10px 13px 2px rgba(34, 60, 80, 0.2);
+  height: 500px;
+  padding-top: 3%;
+}
+::ng-deep .mat-list .mat-list-item .mat-line{
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+.all-services{
+  margin-top: 3%;
+  height: 100vh;
+ display: flex;
+  flex-direction: column;
+}
+.wrapper{
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*.card2{*/
+/* margin-top: 5%;*/
+/*}*/
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: #813838;
+  transition-duration: 0.25s;
+}

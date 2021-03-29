@@ -1,0 +1,22 @@
+<div class="send-request">
+
+  <form  [formGroup]="articleForm" (submit)="onSend()" id="editForm">
+
+    <h2 matDialogTitle>Send Request</h2>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Title</mat-label>
+      <input matInput type="text"  name="title" formControlName="title"/>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Description</mat-label>
+      <textarea matInput name="description" formControlName="description"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button>Send</button>
+
+  </form>
+
+</div>
+

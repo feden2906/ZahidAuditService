@@ -1,0 +1,44 @@
+.quality-police{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper{
+  margin-top: 2%;
+  flex-grow: 1;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+.wrapper-item{
+  width: 50%;
+  height: 50%;
+}
+.item1{
+background-image: url("https://www.sppkk.ru/wp-content/uploads/2019/11/5d4d7ccd166e3f43580751442b063a27.jpg");
+background-size: cover;
+}
+.item4{
+  background-image: url("https://volynonline.com/wp-content/uploads/2021/02/audyt.jpg");
+  background-size: cover;
+}
+
+.item2,.item3{
+  width: 60%;
+  margin: 40px;
+}
+p{
+  font-size: 18px;
+}
+h2{
+  font-size: 25px;
+}

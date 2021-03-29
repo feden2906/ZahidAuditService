@@ -1,0 +1,43 @@
+.team{
+  margin-top: 5%;
+ height: 100vh;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+.round-image{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  display: block;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+.diana-img{
+  background-image: url('/assets/images/Diana.jpg');
+}
+.nadine-img{
+  background-image: url('/assets/images/Nadine.jpg');
+}
+.maria-img{
+  background-image: url('/assets/images/Mariia.jpg');
+
+}
+
+.example-card{
+  text-align: center;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
