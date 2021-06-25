@@ -17,9 +17,10 @@ import {MatIconModule} from '@angular/material/icon';
 import {AboutCompanyComponent} from './about-company/components/about-company/about-company.component';
 
 const routes: Routes = [
-  {path: '',  redirectTo: 'intro', pathMatch: 'full'},
   {path: 'intro', component: IntroComponent},
-  {path: 'AboutCompany', component: AboutCompanyComponent}];
+  {path: 'AboutCompany', component: AboutCompanyComponent},
+  {path: '**', redirectTo: 'intro'}
+];
 
 @NgModule({
   declarations: [
