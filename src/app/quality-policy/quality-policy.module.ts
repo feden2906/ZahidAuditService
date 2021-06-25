@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { QualityPolicyRoutingModule } from './quality-policy-routing.module';
 import { QualityPolicyComponent } from './components/quality-policy/quality-policy.component';
+import {AnimateModule} from '../animate/animate.module';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -12,7 +14,9 @@ import { QualityPolicyComponent } from './components/quality-policy/quality-poli
     ],
     imports: [
         CommonModule,
-        QualityPolicyRoutingModule
+        QualityPolicyRoutingModule,
+      AnimateModule,
+      BrowserAnimationsModule
     ]
 })
 export class QualityPolicyModule { }

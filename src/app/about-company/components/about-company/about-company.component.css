@@ -38,3 +38,8 @@ p{
   height: 90%;
   width: 50%;
 }
+
+i{
+  color: black;
+  font-weight: unset;
+}

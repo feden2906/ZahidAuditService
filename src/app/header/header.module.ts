@@ -5,6 +5,7 @@ import {HeaderRoutingModule} from './header-routing.module';
 import {HeaderComponent} from './components/header/header.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {RouterModule} from '@angular/router';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import {MatIconModule} from '@angular/material/icon';
         CommonModule,
         HeaderRoutingModule,
         MatButtonModule,
+      RouterModule.forRoot([]),
       MatIconModule
     ]
 })
